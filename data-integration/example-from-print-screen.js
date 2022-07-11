@@ -8,9 +8,9 @@ function * concat(data) {
 function * read(data) {
    yield * concat(data)
   // or
-  for(const item of data) {
-    yield * concat([item])
-  }
+  // for(const item of data) {
+  //  yield * concat([item])
+  //}
 }
 
 for(const data of read(database)) {
