@@ -1,0 +1,15 @@
+{
+  "name": "data-integration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:server1": "node --no-warnings src/server1.js",
+    "start:server2": "node --no-warnings src/server2.js",
+    "start:client": "node --no-warnings src/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
